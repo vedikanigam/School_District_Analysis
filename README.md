@@ -1,1 +1,63 @@
 # School_District_Analysis
+
+## Overview of Election-Audit
+In this project, we are helping Chief Data Scientist at City School District Ms. Maria in preparing an analysis of standardized test scores for schools in the city. This analysis will not include reading and math scores for ninth graders at Thomas High School as the csv data file shows evidence of dishonesty. Using Python, we will analyze the data to showcase trends in school performance. 
+
+### Purpose
+The purpose of the analysis is to provide insights about performance trends to assist the school board in making decisions about school budgets and priorities. We will create a district wide summary and a school summary which will inculde total budget, per student budget, average math score, average reading score, percentage of students passing math, percentage of students passing reading, and percentage of students passing both math and reading. Furthermore, we will provide insights about math and reading scores by grade, scores by school spending, school size, and school type. This summary has changed from the original summary as we have removed math and reading scores for ninth graders at Thomas High School.  
+
+## School District Analysis Results
+
+- **District Summary** -
+Since we have removed math and reading scores for ninth graders but total number of students remains the same, the average math and reading score, percentage of students passing math, reading, and both math and reading, has reduced but this change is almost negligible. For example the percentage of overall passing has reduced from 65 to 64.9. See image below-
+
+![Original District Summary](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+![District Summary](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+
+- **School Summary** -
+In comparison to the district summary, the school summary changes drastically for Thomas High School after not including math and reading scores for ninth grade. For example the overall passing percentage drops to approximately 65% from 90.9%. The numbers for other schools stay the same in this revised summary.
+See image below-
+ 
+![Original School Summary](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+![Revised School Summary](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+- **Thomas High School’s performance relative to the other schools after replacing the ninth graders' math and reading scores** -
+The position of Thomas High School in top schools does not change after replacing the ninth graders' math and reading scores. It stays at number two even after revisions are done to the original file. See image below - 
+
+![Original Top Schools](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+![Revised Top Schools](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+- **Math and Reading scores by grade** -
+There is no change in math and reading scores except the ninth grade scores are shown as NaN in the revised code. See image below-
+
+![Revised Math and Reading Scores](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+- **Scores by school spending** -
+There is very slight change (in decimals) in scores in the spending category $630-644. After rounding off the numbers, there is no change. See image below
+
+![Original Spending Summary](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+![Revised Spending Summary](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+- **Scores by school size** -
+Again, there is negligible change in scores in the Medium school category with total students between 1000 and 2000. After rounding off the numbers, thereis no change. See image below
+
+![Original School Size](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+![Revised School Size](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+- **Scores by school type** -
+Again, there is almost no chaneg in scores in the school type category -Charter . After rounding off the numbers, thereis no change. See image below -
+
+![Original School Type](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+
+![Revised School Type](https://github.com/vedikanigam/Election-Analysis/blob/main/Resources/Total_votes.png)
+
+## Summary
+
+Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
